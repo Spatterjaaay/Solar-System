@@ -24,6 +24,7 @@ class Planet
   end
 end
 
+# array of hashes that are initialized as instances of Planet class
 planet_array = [
   Planet.new(
   { name: "Mercury",
